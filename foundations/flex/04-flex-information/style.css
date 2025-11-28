@@ -12,7 +12,7 @@ img {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -28,20 +28,16 @@ img {
   background: #eee;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+body {
+  text-align: center;
+}
 
 .group {
-  display: flex;
-  justify-content:space-evenly;
-}
-
-.images {
-  display: flex;
-  gap:52px;
-  justify-content: space-evenly;
-}
-
-
-
-.text {
-  flex-basis: 200px;
+  max-width: 200px;
 }
